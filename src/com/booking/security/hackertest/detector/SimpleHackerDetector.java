@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Simple implementation of HackerDetector that takes into account
  * that logs might arrive out of order (timestamps) but will
- * have SLAs for delays. Any log event arriving before the current
+ * have SLAs for delays. Any log event arriving beyond the current
  * 5 minute window will therefore not cause an alert
  */
 public class SimpleHackerDetector implements HackerDetector{
