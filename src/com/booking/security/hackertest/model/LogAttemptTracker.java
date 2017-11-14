@@ -8,6 +8,8 @@ import java.util.Collections;
 
 /**
  * Keeps track of failed attempts
+ * This class should have more fine grained locks in case
+ * there are more public methods added to it
  */
 public class LogAttemptTracker {
 

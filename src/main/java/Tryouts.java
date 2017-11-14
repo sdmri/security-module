@@ -25,6 +25,8 @@ public class Tryouts {
             System.out.println("10 " + hd.parseLogLine((currentEpoch - 2 * 60 * 1000 - 661) +",188.218.83.136,John.Smith,FAILURE"));
             System.out.println("11 " + hd.parseLogLine((currentEpoch - 3 * 60 * 1000 + 1098) +",187.218.83.136,John.Smith,FAILURE"));
             System.out.println("12 " + hd.parseLogLine((currentEpoch - 3 * 60 * 1000 + 1098) +",187.218.83.136,John.Smith,FAILURE"));
+            System.out.println("13 " + hd.parseLogLine((currentEpoch - 3 * 60 * 1000 + 1098) +",187.218.83.136,John.Smith,FAILURE"));
+            System.out.println("14 " + hd.parseLogLine((currentEpoch - 3 * 60 * 1000 + 1098) +",187.218.83.136,John.Smith,SUCCESS"));
         }catch(Exception e){
             e.printStackTrace();
         }
